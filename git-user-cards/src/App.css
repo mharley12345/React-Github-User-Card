@@ -2,8 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+.pic-spin {
+  animation: App-logo-spin infinite 10s linear;
   height: 40vmin;
   pointer-events: none;
 }

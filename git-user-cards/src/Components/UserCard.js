@@ -4,7 +4,8 @@ import Followers from "./Followers"
 const UserCard = props => {
   return (
     <div>
-      <img src={props.user.avatar_url} alt={`This is ${props.user.name}`} />
+      <img className="pic-spin" src={props.user.avatar_url} alt={`This is ${props.user.name}`} />
+      
       <h1>Name: {props.user.name}</h1>
       <p>User Name : {props.user.login}</p>
       <h4>Location : {props.user.location}</h4>
